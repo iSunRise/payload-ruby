@@ -5,6 +5,10 @@ module Payload
 		@spec = { 'object' => 'account' }
 	end
 
+	class Credit < ARMObject
+		@spec = { 'object' => 'credit' }
+	end
+
 	class Customer < ARMObject
 		@spec = { 'object' => 'customer' }
 	end
